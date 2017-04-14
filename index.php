@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+<title>Sam Shariat Personal Page</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+<!-- Google Font-->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,900,900italic,700italic%7COswald:400,300,700' rel='stylesheet' type='text/css'>
+<!-- Design Style -->
+<link rel="stylesheet" type="text/css" href="css/scroll.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- Icon -->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<!-- Portfolio Thumbnail / Slider -->
+<link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+<link rel="stylesheet" type="text/css" href="css/carousel.css">
+<!-- Responsive -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<!-- Pie Chart / Skills -->
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<!-- Send Email -->
+<script type="text/javascript" src="js/sendemail.js"></script>
+<!-- Progressbar / Skills-->
+<script type="text/javascript" src="js/progressbar.js"></script>
+<!-- Portfolio-->
+<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+<div id="container" class="container"> 
+  <!-- Left Menu / Logo-->
+  <aside class="menu" id="menu">
+    <div class="logo"> 
+      <!-- Logo image--> 
+      <img src="images/logo.png" width="140" height="140" alt=""/> 
+      <!-- Logo name--> 
+      <span>Sam Shariat</span></div>
+    <!-- Mobile Navigation--> 
+    <a href="#menu1" class="menu-link"></a> 
+    <!-- Left Navigation-->
+    <nav id="menu1" role="navigation"> <a href="#chapterintroduction"><span id="link_introduction" class="active">Home</span></a> <a href="#chapterabout"><span id="link_about">About</span></a> <a href="#chapterskills"><span id="link_skills">Skills</span></a> <a href="#chapterexperience"><span id="link_experience">Experience</span></a> <!--a href="#chaptereducation"><span id="link_education">Education</span></a!--> <a href="#chapterportfolio"><span id="link_portfolio">Portfolio</span></a><a href="#chaptercontact"><span id="link_contact">Contact</span></a><a href="flashsite"><span id="link_blog">Flash Website</span></a></nav>
+    <div class="social"> <a href="https://www.facebook.com/sam.walters93" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> <a href="https://telegram.me/sam_shariat" target="_blank" class="twitter"><i class="fa fa-paper-plane"></i></a> <a href="https://plus.google.com/u/0/105667086076395000646" target="_blank" class="google-plus"><i class="fa fa-google-plus"></i></a> </div>
+    <div class="copyright"> © Sam Shariat.<br>
+      All Rights Reserved. </div>
+  </aside>
+  <!-- Go to top link for mobile device --> 
+  <a href="#menu" class="totop-link">Go to the top</a>
+  <div class="content-scroller">
+    <div class="content-wrapper"> 
+      
+      <!-- Introduction -->
+      <article class="content introduction noscroll" id="chapterintroduction">
+        <div class="inner">
+          <h2><span>HEllo, I'm</span><br>
+            Sam Shariat</h2>
+          <span class="title">Mobile Application Developer</span> </div>
+        <div id="owl-demo" class="owl-carousel">
+           <div class="item"><img src="images/804x990.jpg" alt="" /></div>
+        </div>
+      </article>
+      
+      <!-- About -->
+      <article class="content about white-bg" id="chapterabout">
+        <div class="inner">
+          <h2>About</h2>
+          <div class="title-divider"></div>
+          <div class="about-con">
+            <ul>
+              <li>Name: Moslem Shariat (Sam)</li>
+              <li>Email: <a href="mailto:moslem.shariat@gmail.com">moslem.shariat@gmail.com</a></li>
+              <li>Phone: +98 (936) - 946-9919</li>
+              <li>Date of birth: 24 February 1993</li>
+              <li>Address: Tehran</li>
+              <li>Nationality: Kurdish</li>
+            </ul>
+            <!--h3>Professional Profile</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.<br>
+            </p-->
+            <br/>
+            <a href="#" class="button">Download resume as PDF format</a> <br/> <img src="images/signature.jpg" class="signature" alt="" />
+        </div>
+      </article>
+      
+      <!-- Skills -->
+      <article class="content skills gray-bg" id="chapterskills">
+        <div class="inner">
+          <h2>Skills</h2>
+          <div class="title-divider"></div>
+          <h3>Just My Awesome Skills</h3>
+          <p>I have started working with my brothers computer when i was about 5 years old , Well not working , just playing games , but anyways . my profesional work started when i was 16 , and my first completed project was 3 little games for a local show for children in Kermanshah TV .</p>
+          <div class="skills-con">
+            <div class="container-sub margin-top50">
+              <div class="row">
+                <div class="col-6 margin-bottom50">
+                  <div class="col-6"><span class="chart" data-percent="90"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>Application Development</h4>
+                    <p>Senior, 4 years</p>
+                  </div>
+                </div>
+                <div class="col-6 margin-bottom50">
+                  <div class="col-6"><span class="chart" data-percent="75"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>Multimedia</h4>
+                    <p>Skillful, 2 years</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="col-6"><span class="chart" data-percent="95"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>Technical Expertise</h4>
+                    <p>Expert, 8 years</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="col-6"><span class="chart" data-percent="70"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>Game Development</h4>
+                    <p>Intermediate, 1 years</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="full-divider"></div>
+            <div class="container-sub skill-list">
+              <div class="row">
+                <h3>Knowledge</h3>
+                <p>Here are some of things that i know and have been challenged to learn about in my experiences</p>
+                <div class="col-4 margin-top10">
+                  <ul>
+                    <li>ActionScript 3</li>
+                    <li>Adobe Flash Pro / Adobe Air</li>
+                    <li>PHP & MySQL</li>
+                  </ul>
+                </div>
+                <div class="col-4 margin-top10">
+                  <ul>
+                    <li>SQLite and XML</li>
+                    <li>Unity 4 / Javascript</li>
+                    <li>HTML5 / CSS / jQuery</li>
+                  </ul>
+                </div>
+                <div class="col-4 margin-top10">
+                  <ul>
+                    <li>Photoshop / Illustrator</li>
+                    <li>Xcode / Objective-C</li>
+                    <li>Windows/Linux Servers</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="full-divider"></div>
+            <div class="container-sub">
+              <div class="row">
+                <h3>Language Skills</h3>
+                <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description">Persian</div>
+                  <div id="progressBar" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+                <div class="progressbar-main margin-top40">
+                  <div class="progress-bar-description">English</div>
+                  <div id="progressBar2" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+                <div class="progressbar-main margin-top40">
+                  <div class="progress-bar-description">Kurdish</div>
+                  <div id="progressBar3" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Experience -->
+      <article class="content experience white-bg" id="chapterexperience">
+        <div class="inner">
+          <h2>Experience</h2>
+          <div class="title-divider"></div>
+          <h3>8 Years Experience!</h3>
+          <p>Worked with many places / Public-Private sectors / International even as a Freelancer </p>
+          <div class="experience-con">
+            <div class="container-sub">
+              <div class="full-divider"></div>
+              <div class="row">
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-dot-circle-o"></i></div>
+                    <div class="flot-left">
+                      <h5>NSIP</h5>
+                      <h4>Senior Developer</h4>
+                      <span>2015 - 2017</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> I was basiclly the ios/android and back-end developer (almost everything) in this project which is FITNEX available in iOS/Android , Took about 8 months to develop and 1 year full support.</div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-dot-circle-o"></i></div>
+                    <div class="flot-left">
+                      <h5>iParsMedia</h5>
+                      <h4>Mobile Developer</h4>
+                      <span>2013 - 2015</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> We did a lot of mobile applications in iparsmedia which were really cool experiences , also my first mobile game experience was in here , a little endless Dart game which is available in android and ios.</div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-dot-circle-o"></i></div>
+                    <div class="flot-left">
+                      <h5>Freelancer.com</h5>
+                      <h4>Freelancer</h4>
+                      <span>2011 - 2013</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top">2 Years in freelancer.com was really great for me , Economic and Experimental. did some web applications , mobile applications , intro's , magento shop , flex project and also some php and mysql quick fixes and scripts .</div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-dot-circle-o"></i></div>
+                    <div class="flot-left">
+                      <h5>Nakhak</h5>
+                      <h4>Software Developer</h4>
+                      <span>2008 - 2010</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Spend about 2 years in this company , was a good experience even though the projects did fail but i did some cool stuff about eLearning. we created an application for teaching maths to 6th grade teenagers which included animated teaching , examples , practice ( even drawing ).</div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-dot-circle-o"></i></div>
+                    <div class="flot-left">
+                      <h5>The Rest</h5>
+                      <h4>Developer</h4>
+                      <span>2006 - 2008</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top">Some little games for TV ( children's show ) , A really cool bio multimedia for Fakhreddin doost mohammad tehrani ( Great Cartoonist ) , some other little projects which i can't really remember.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Education -->
+      <!--article class="content education gray-bg" id="chaptereducation">
+        <div class="inner">
+          <h2>Education</h2>
+          <div class="title-divider"></div>
+          <h3>Just My Education</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
+          <div class="education-con">
+            <div class="container-sub">
+              <div class="full-divider"></div>
+              <div class="row">
+                <div class="education-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-photo"></i></div>
+                    <div class="flot-left">
+                      <h5>University of Design</h5>
+                      <h4>Bachelor of Arts</h4>
+                      <span>2009 - 2010</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="education-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-laptop"></i></div>
+                    <div class="flot-left">
+                      <h5>Boston State University</h5>
+                      <h4>Visual Art & Design</h4>
+                      <span>2006 - 2007</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="education-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-life-bouy"></i></div>
+                    <div class="flot-left">
+                      <h5>Boston State University</h5>
+                      <h4>Degree of Design</h4>
+                      <span>2004 - 2005</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article-->
+      
+      <!-- Pportfolio -->
+      <article class="content portfolio gray-bg" id="chapterportfolio">
+        <div class="inner">
+          <h2>Portfolio</h2>
+          <div class="title-divider"></div>
+          <h3>Here are some of my bigger projects</p>
+          <div class="portfolio-con">
+            <div class="container-sub margin-top50">
+              <div class="row">
+                <div id="grid-gallery" class="grid-gallery">
+                  <section class="grid-wrap">
+                    <ul class="grid">
+                      <li>
+                        <figure> <img src="images/portfolio/fitnex/1.jpg" alt=""/>
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>FITNEX</h3>
+                              <span>Senior Developer</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure> <img src="images/portfolio/i-iphone/1.jpg" alt=""/>
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>i-iPhone</h3>
+                              <span>Application Developer</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure> <img src="images/portfolio/drwin/1.jpg" alt=""/>
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>DrWin</h3>
+                              <span>App Developer</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure> <img src="images/portfolio/foderart/1.jpg" alt=""/>
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>FoderArt</h3>
+                              <span>App Developer/Designer</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure> <img src="images/portfolio/parsbazi/1.jpg" alt=""/>
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>ParsBazi</h3>
+                              <span>App Developer</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure> <img src="images/portfolio/ibazaryabi/1.jpg" alt=""/>
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>iBazaryabi</h3>
+                              <span>App Developer</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure> <img src="images/portfolio/primewell/1.jpg" alt=""/>
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Primewell</h3>
+                              <span>App Developer</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure> <img src="images/portfolio/myweb/1.jpg" alt=""/>
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>MyFlashWebsite</h3>
+                              <span>Developer/Designer</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                    </ul>
+                  </section>
+                  
+                  <!-- Lightbox Popup -->
+                  <section class="slideshow">
+                    <ul>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>FITNEX</h3>
+                            <span>Senior Developer</span>
+                            <p>Developed with Adobe Air / Flash Pro / ActionScript3 / Used GPS , Camera , Library (Images/Sound) , Microphone , ... - Back end developed with PHP and MySQL . Some features are : Sport/Diet programs with calendar / Maps / Social Network ( text/picture/voice messaging ) / Character / News / ... </p>
+                            <p> <a href="https://itunes.apple.com/us/app/fitnex/id1090679134?mt=8" > Get it for iOS </a> <br/> <a href="https://play.google.com/store/apps/details?id=air.com.fitnex.club&hl=en" > Get it for Android </a></p>
+                          </figcaption>
+                          <div id="owl-demo1" class="owl-carousel">
+                            <div class="item"><img src="images/portfolio/fitnex/2.jpg" alt="" /></div>
+                            <div class="item"><img src="images/portfolio/fitnex/3.jpg" alt="" /></div>
+                            <div class="item"><img src="images/portfolio/fitnex/4.jpg" alt="" /></div>
+                          </div>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>i-iPhone</h3>
+                            <span>App Developer</span>
+                            <p>Developed with Adobe Air / Flash Pro / ActionScript3 / Used - Back end developed with PHP and MySQL</p>
+                            <p> <a href="http://i-iphone.ir/ios/" > Get it for iOS </a><br/> <a href="http://i-iphone.ir/i-iphone.ir-Android.apk" > Get it for Android </a></p>
+                          </figcaption>
+                          <img src="images/portfolio/i-iphone/1.jpg" alt=""/></figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>DrWin</h3>
+                            <span>App Developer</span>
+                            <p>Developed with Adobe Air / Flash Pro / ActionScript3 / Used - Back end developed with PHP and MySQL</p>
+                            <p> <a href="http://my.sibche.ir/app/details/id/11194/name/Dr-Win" > Get it for iOS </a><br/> <a href="http://iparsapp.ir/files/Dr-Win.apk" > Get it for Android </a></p>
+                          </figcaption>
+                          <div id="owl-demo2" class="owl-carousel">
+                             <div class="item"><img src="images/portfolio/drwin/1.jpg" alt="" /></div>
+                          </div>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>FoderArt</h3>
+                            <span>App Developer/Designer</span>
+                            <p>Developed with Adobe Air / Flash Pro / ActionScript3 / Used - Back end developed with PHP and MySQL</p>
+                            <p> <a href="http://fodereautosumisura.it/configurator/" > WebApp </a><br/> <a href="https://play.google.com/store/apps/details?id=air.FoderArt&hl=en" > Get it for Android </a></p>
+                          </figcaption>
+                          <img src="images/portfolio/foderart/1.jpg" alt=""/></figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>ParsBazi</h3>
+                            <span>App Developer/Designer</span>
+                            <p>Developed with Adobe Air / Flash Pro / ActionScript3 / Used - Back end developed with PHP and MySQL</p>
+                            <p> <a href="http://iparsapp.ir/files/parsbazi.apk" > Get it for Android </a></p>
+                          </figcaption>
+                          <img src="images/portfolio/parsbazi/1.jpg" alt=""/></figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>iBazaryabi</h3>
+                            <span>App Developer</span>
+                            <p>Developed with Adobe Air / Flash Pro / ActionScript3 / Used - Back end developed with PHP and MySQL</p>
+                            <p> <a href="http://my.sibche.ir/app/details/id/9353/name/iBazaryabi" > Get it for iOS </a><br/> <a href="https://play.google.com/store/apps/details?id=air.iparsmedia.ibazaryabi" > Get it for Android </a></p>
+                          </figcaption>
+                          <img src="images/portfolio/ibazaryabi/1.jpg" alt=""/></figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>Primewell</h3>
+                            <span>App Developer</span>
+                            <p>Developed with Adobe Air / Flash Pro / ActionScript3 / Used - Back end developed with PHP and MySQL </p>
+                             <p> <a href="http://my.sibche.ir/app/details/id/8415/name/primewell" > Get it for iOS </a><br/> <a href="https://play.google.com/store/apps/details?id=air.com.iparsmedia.primewell" > Get it for Android </a></p>
+                          </figcaption>
+                          <img src="images/portfolio/primewell/1.jpg" alt=""/></figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <figcaption>
+                            <h3>MyWebsite</h3>
+                            <span>Developer/Designer</span>
+                            <p>Developed with Adobe Air / Flash Pro / ActionScript3 / Used - Back end developed with PHP and MySQL</p>
+                            <p> You also can see my older projects in here --> <a href="http://shariatco.ir/flashsite" > MyFlashWebsite </a></p>
+                          </figcaption>
+                          <div id="owl-demo1" class="owl-carousel">
+                            <div class="item"><img src="images/portfolio/myweb/2.jpg" alt="" /></div>
+                            <div class="item"><img src="images/portfolio/myweb/1.jpg" alt="" /></div>
+                          </div>
+                      </li>
+                    </ul>
+                    <nav> <span class="fa nav-prev"></span> <span class="fa nav-next"></span> <span class="fa nav-close"></span> </nav>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Contact -->
+      <article class="content contact white-bg" id="chaptercontact">
+        <div class="inner">
+          <h2>Contact</h2>
+          <div class="title-divider"></div>
+          <h3>Let's Keep In Touch</h3>
+          <p>If you need anything , just let me know.</p>
+          <div class="full-divider"></div>
+          <div class="contact-con margin-top50">
+            <div class="container-sub">
+              <div class="row">
+                <div class="contact-details">
+                  <div class="col-6">
+                    <div class="contact-text">
+                      <div class="col-2 icon-block address"><i class="fa fa-map-marker"></i></div>
+                      <div class="flot-left"> <strong>Moslem Shariat (Sam)</strong><br>
+                        Tehran , Tehran , Poonak </div>
+                    </div>
+                    <div class="contact-text">
+                      <div class="col-2 icon-block phone"><i class="fa fa-phone"></i></div>
+                      <div class="flot-left"> <strong>Phone</strong><br>
+                        +98 (936) 946 9919 </div>
+                    </div>
+                    <div class="contact-text">
+                      <div class="col-2 icon-block email"><i class="fa fa-envelope"></i></div>
+                      <div class="flot-left"> <strong>Email</strong><br>
+                        <a href="mailto:moslem.shariat@gmail.com">moslem.shariat@gmail.com</a> </div>
+                    </div>
+                  </div>
+                  <div class="col-6 m-margin-top30">
+                    <h3>I'm also on Social Networks</h3>
+                    <div class="contact-social margin-top30"><a href="https://www.facebook.com/sam.walters93" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/samwalt93" target="_blank"><i class="fa fa-twitter"></i></a> <a href="https://www.telegram.me/sam_shariat" target="_blank"><i class="fa fa-paper-plane "></i></a><a href="https://plus.google.com/u/0/105667086076395000646" target="_blank"><i class="fa fa-google-plus"></i></a><a href="https://www.linkedin.com/in/sam-shariat-2981623b" target="_blank"><i class="fa fa-linkedin"></i></a> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="full-divider"></div>
+            <div class="container-sub">
+              <div class="row">
+                <div class="contact-form">
+                  <h3>Drop Me a Line</h3>
+                  <form id="form1" name="form1" method="post" >
+                    <input name="name" type="text" id="name" placeholder="Your Name..." />
+                    <input name="email" type="text" id="email" placeholder="Your Email..." />
+                    <textarea name="message" id="message" cols="45" rows="5" placeholder="Your Message..."></textarea>
+                    <input type="submit" name="button" id="button" value="say hello!" >
+                    <div id="successmsg" ></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Introduction -->
+      <article class="content introduction-end" id="chapterthankyou">
+        <div class="inner">
+          <div class="introduction-end-con margin-top50">
+            <h3><strong>Sam Shariat</strong></h3>
+            <div id="rotate" class="rotate">
+              <div><span>awesome.</span></div>
+              <div><span>invincible.</span></div>
+              <div><span>unbeatable.</span></div>
+              <div><span>indestructible.</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!-- content-wrapper --> 
+  </div>
+  <!-- content-scroller --> 
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/head.min.js"></script>
+<!-- Portfolio Thumbnail --> 
+<script type="text/javascript" src="js/imagesloaded.min.js"></script> 
+<script type="text/javascript" src="js/masonry.min.js"></script> 
+<script type="text/javascript" src="js/class_helper.js"></script> 
+<script type="text/javascript" src="js/grid_gallery.js"></script> 
+<!-- Portfolio Grid --> 
+<script>
+    new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+</script>
+<!-- Portfolio Slider--> 
+<script type="text/javascript"  src="js/carousel.js"></script> 
+<script type="text/javascript" src="js/jquery.easypiechart.js"></script> 
+<script type="text/javascript" src="js/text.rotator.js"></script>
+<!-- Page Scrolling --> 
+<script>
+head.js(
+		{ mousewheel : "js/jquery.mousewheel.js" },
+		{ mwheelIntent : "js/mwheelIntent.js" },
+		{ jScrollPane : "js/jquery.jscrollpane.min.js" },
+		{ history : "js/jquery.history.js" },
+		{ stringLib : "js/core.string.js" },
+		{ easing : "js/jquery.easing.1.3.js" },
+		{ smartresize : "js/jquery.smartresize.js" },
+		{ page : "js/jquery.page.js" }
+		);
+</script>  
+<!-- Fit Video --> 
+<script type="text/javascript"  src="js/jquery.fitvids.js"></script>
+<!-- All Javascript Component--> 
+<script src="js/settings.js"></script>
+</body>
+</html>
