@@ -27,7 +27,7 @@
                 if(validateForm()){
                  e.preventDefault();
                   $.ajax({type: "POST",
-                          url: "https://samshariat.github.io/send-email.php",
+                          url: "../send-email.php",
                           data:$("#form1").serialize(),
                           success:function(result){
                           $("#successmsg").html(result);
