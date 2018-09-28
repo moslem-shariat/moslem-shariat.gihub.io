@@ -33,6 +33,7 @@
                           $("#successmsg").html(result);
                           
                         }}); 
+			alert('Message Sent! Thank you');
                   $("#name").val('');
                   $("#email").val('');
                   $("#message").val('');
