@@ -27,7 +27,7 @@
                 if(validateForm()){
                  e.preventDefault();
                   $.ajax({type: "POST",
-                          url: "http://www.shariatco.ir/send-email.php",
+                          url: "https://samshariat.github.io/send-email.php",
                           data:$("#form1").serialize(),
                           success:function(result){
                           $("#successmsg").html(result);
