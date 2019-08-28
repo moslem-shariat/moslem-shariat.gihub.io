@@ -200,6 +200,9 @@ h4 {
 }
 h5 {
     font-size: 18px;
+    font-weight: 100;
+    line-height: 30px;
+    margin: 0;
 }
 .title-divider {
     width: 70px;
