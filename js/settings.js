@@ -19,10 +19,10 @@ $(document).ready(function () {
          ========================================================================== */
         $(".owl-carousel").owlCarousel({
             navigation: true,
-            slideSpeed: 300,
+            slideSpeed: 3000,
             paginationSpeed: 400,
             singleItem: true,
-            autoPlay: false
+            autoPlay: true
         });
 
         /* ==========================================================================
