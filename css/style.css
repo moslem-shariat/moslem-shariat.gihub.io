@@ -212,7 +212,7 @@ h5 {
 }
 
 .appstore img {
-   width:145px;
+   width:145px !important;
 }
 
 .full-divider {
